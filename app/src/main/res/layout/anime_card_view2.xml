@@ -1,0 +1,84 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardBackgroundColor="#2980b9"
+    card_view:cardElevation="5dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+
+            android:fontFamily="Roboto"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/contador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nombre"
+            android:layout_below="@+id/nombre"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/descripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/contador"
+            android:layout_alignStart="@+id/contador"
+            android:layout_centerVertical="true"
+            android:text="Aquui va descripcion"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/fans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/descripcion"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/descripcion"
+            android:text="Aquui va otro dato "
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/anio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imagen"
+            android:layout_alignParentBottom="true"
+            android:text="Año"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_toLeftOf="@+id/imagen"
+            android:layout_toStartOf="@+id/imagen" />
+
+        <View
+            android:id="@+id/linea"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_above="@+id/compartir"
+            android:background="#ffd5d5d5">
+
+        </View>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

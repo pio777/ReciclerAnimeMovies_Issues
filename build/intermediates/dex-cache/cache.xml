@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\ejecutivo\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-mobileanalytics\2.2.22\8a714794fadef7af2c989ead44ba32430b7205f4\aws-android-sdk-mobileanalytics-2.2.22.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8a714794fadef7af2c989ead44ba32430b7205f4">
+        <dex dex="C:\proyectos\r2\RecyclerView\app\build\intermediates\pre-dexed\debug\aws-android-sdk-mobileanalytics-2.2.22_dd2caffb5aebb55149c8f478843f29ab8bfcf7b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ejecutivo\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-core\2.2.22\c6789de00db9d1f93faec881fa0c1f5960fb8a15\aws-android-sdk-core-2.2.22.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6789de00db9d1f93faec881fa0c1f5960fb8a15">
+        <dex dex="C:\proyectos\r2\RecyclerView\app\build\intermediates\pre-dexed\debug\aws-android-sdk-core-2.2.22_e0fe436d913fd7cc0a83c06c27887d142d9be834.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ejecutivo\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-ddb\2.2.22\a1e0dd0d91d40d9e67342d3a8bd26f08edaa3549\aws-android-sdk-ddb-2.2.22.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1e0dd0d91d40d9e67342d3a8bd26f08edaa3549">
+        <dex dex="C:\proyectos\r2\RecyclerView\app\build\intermediates\pre-dexed\debug\aws-android-sdk-ddb-2.2.22_631ddd75159dd379fe800f632ee4a66067369790.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio1\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="C:\proyectos\r2\RecyclerView\app\build\intermediates\pre-dexed\debug\gson-2.2.4_ea3566817aae63c8e87ab16e4d1ccfdc8d788289.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ejecutivo\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-s3\2.2.22\40fe82092e0ae3ca549b132a1e7e876807525176\aws-android-sdk-s3-2.2.22.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="40fe82092e0ae3ca549b132a1e7e876807525176">
+        <dex dex="C:\proyectos\r2\RecyclerView\app\build\intermediates\pre-dexed\debug\aws-android-sdk-s3-2.2.22_2d58f449d1248b113f03f8ad95be7d274df5cbd7.jar" />
+    </item>
+
+</items>
